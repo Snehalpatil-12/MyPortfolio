@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body style="background-color: rgb(212, 198, 149);">
+    <marquee>Student Registration Form</marquee>
+    <center>
+    <h2><a style="text-decoration: none;" href="http://127.0.0.1:5501/Registration.html" target="_blank">Student Registration Form</a></h2>
+    <a target="_blank" href="http://127.0.0.1:5501/Registration.html"></a>
+    <table border="1" align="center">
+    <section>
+        <form>
+            <tr>
+                <td>First name: </td>
+                <td><input type="text" name="first_name" required/></td></td>
+            </tr>
+            <tr>
+                <td>Middle name: </td>
+                <td><input type="text" name="Middle_name"/></td>
+            </tr>
+            <tr>
+                <td>last name: </td>
+                <td><input type="text" name="last_name"/></td>
+            </tr>
+            <tr>
+                <td> DOB:</td>
+                <td><input type="date" id="birthday" name="birthday"></td>
+            </tr>
+            <tr>
+                <td>Degree:</td>
+                <td><select>
+                    <option value="Degree">Degree</option>
+                    <option value="Bachelors of Engineering">Bachelors of Engineering</option>
+                    <option value="Bachelors of Science">Bachelors of Science</option>
+                    <option value="masters degree">masters degree</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Course:</td>
+                    <td><select>
+                    <option value="ECE"> ECE</option>
+                    <option value="CSE"> CSE</option>
+                    <option value="ISE"> ISE</option>
+                    <option value="EEE"> EEE</option>
+                    <option value="Mech"> Mech</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Year of passing</td>
+                <td><select>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="other">other</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td> <input type="radio" value="male" name="on"/> male
+                    <input type="radio" value="female" name="on"/>female
+                    <input type="radio" value="other" name="on"/>other</td>
+            </tr>
+            <tr>
+                <td> Phone: </td>
+                <td><input type="tel" name="Country code" value="+91" size="1"/><input type="text" name="no" size="10"/></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><select>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Maharashtra"> Maharashtra</option>
+                    <option value="Andhra Pradesh"> Andhra Pradesh</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Hariyana"> Hariyana</option>
+                    <option value="Madhya Pradesh"> Madhya Pradesh</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td> Address:</td>
+                <td><textarea name="Address" placeholder="Enter your address" rows="5" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <tr>
+                    <td> Upload Resume</td>
+                    <td><input type="file" id="myFile" name="filename"></td>
+                </tr>
+                <tr>
+                    <td>Upload photo</td>
+                    <td><input type="file" id="myFile" name="filename"></td>
+                </tr>
+                <tr>
+                    <td>Skills:</td>
+                    <td><input list="Skills" name="skill" id="skill">
+                        <datalist id="Skills">
+                            <option value="Java">
+                            <option value="Python">
+                            <option value="HTML">
+                            <option value="CSS">
+                            <option value="Javascript">
+                          </datalist>
+                        </td>
+                </tr>
+                <tr>
+                    <td>enter an url</td>
+                    <td><input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*"></td>
+                </tr>
+                <tr>
+                    <td>User ID:</td>
+                    <td><input type="text" name="User ID"></td>
+                </tr>
+                <td>Email: </td>
+                <td><input type="email" name="Email"/></td>
+            </tr>
+            <tr>
+                <td> Password: </td>
+                <td><input type="password" name="Password"/></td>
+            </tr>
+            <tr>
+                <td>Retype Password: </td>
+                <td><input type="password" name="password"/></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="submit" value="submit" />
+                <input type="Reset" name="Reset" value="Reset"/></td>
+            </tr>
+        </table>
+    </form>
+</section>
+</center>
+    </body>
+</body>
+</html>
